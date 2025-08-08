@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: 'segoe UI', Arial, Helvetica, sans-serif;
-    background:url(images/milo.jpg) center center/cover no-repeat;;
+    background:#f1ecec;
     color: #222;
 }
 .navbar {
@@ -9,7 +9,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 1.5rem 3rem;
-background: #524a4a;
+background: #f7f5f5;
 box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 position: sticky;
 top: 0;
@@ -17,8 +17,8 @@ z-index: 10;
 }
 
 .navbar h1{
-    font-size: 1rem;
-    color: bisque;
+    font-size: 2rem;
+    color: rgb(7, 7, 7);
     margin: 0;
     letter-spacing: 2px;
 }
@@ -26,14 +26,14 @@ z-index: 10;
 .nav-items {
    list-style: none;
    display: flex;
-   gap: 2rem;
+   gap: 3rem;
    margin: 0;
    padding: 0; 
 }
 
 .nav-items li a{
     text-decoration: none;
-    color: #f1ecec;
+    color: #090909;
     font-weight: 800;
     font-size: 1.1rem;
     transition: color 0.2s;
@@ -43,7 +43,7 @@ z-index: 10;
  color: brown;
 }
 
-.btn{
+/*.btn{
 background: rgb(117, 120, 210);
 color: aquamarine;
 padding: 0.5rem 1.5rem;
@@ -57,7 +57,7 @@ outline: none;
 .btn:hover{
     background: cadetblue;
     color: #fff;
-}
+}*/
 
 .hero{
     position: relative;
@@ -66,8 +66,12 @@ outline: none;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    color: #fff;
-    margin-bottom: 2rem;
+    color: #070707;
+    margin-bottom: 4rem;
+    background:#f1ecec;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: center;
 }
 
 .hero::after {
@@ -79,11 +83,12 @@ outline: none;
 }
 
 .hero h2{
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
-    font-weight: 200;
+    font-weight: 500;
     letter-spacing: 1px;
-    text-decoration: bisque;
+    text-decoration: rgb(248, 247, 246);
+    text-align: center;
 }
 
 .hero-btn{
@@ -130,19 +135,19 @@ outline: none;
     align-items: flex-start;
     align-content: right;
 }
-.about-img img{
+.about-img img{ 
     width: 100%;
     height: 10%;
 }
 .about h2{
     font-size: 2rem;
-    color: #fff;
+    color: #e80c0c;
 }
 .about p{
     font-size: 1.4rem;
     margin-bottom: 2rem;
     font-weight: 400;
-    color: #fff;
+    color: #080808;
 }
 .about text{
      padding: 0 80px;
@@ -199,6 +204,13 @@ header {
     height: 150px;
     object-fit: cover;
 }
+.card h3{
+        justify-content: center;
+
+}
+.card p{
+        justify-content: center;
+}
 .btn3{
     padding: 8px 0px;
     background-color: #2ecc71;
@@ -208,57 +220,19 @@ header {
     text-align: center;
     text-decoration: none;
 }
-/*.menu-title{
+.menu-title{
     font-size: 2rem;
-    color: rgb(200, 30, 15);
+    color: rgb(6, 6, 6);
     margin: 0;
     letter-spacing: 3px;
-    font-weight: 500;
-}*/
+    font-weight: 800;
+    text-align: center;
+
+}
 .card p{
     color: crimson;
 }
 
-/*order now*/
-.order {
-    display: flex
-;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    color: #fff;
-    text-align: center;
-}
-.order h3 {
-    font-size: 25px;
-}
-.order {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    color: #fff;
-    text-align: center;
-}
-form {
-    display: flex;
-    flex-direction: column;
-}
-button {
-    background-color: #2a6769;
-    border: none;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    border-radius: 23px;
-}
-label {
-    margin-top: 15px;
-    margin-bottom: 5px;
-    font-size: 25px;
-}
 footer {
     text-align: center;
     padding: 15px 10px;
@@ -268,12 +242,4 @@ footer {
     color: white;
     width: 100%;
     bottom: 0;
-}
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
 }
